@@ -156,7 +156,7 @@ function DemoContent() {
   {/* bottom footer areas start */}
   <div className="footer-copyright">
     <div className="left">
-      <p>Copyright © 2025 All Right Reserved.</p>
+      <p>Copyright 2026 <Link href="https://ragab-frontend.vercel.app/">©Busket</Link>. All rights reserved.</p>
     </div>
     <ul>
       <li>
