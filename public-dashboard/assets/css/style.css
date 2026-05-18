@@ -18216,8 +18216,12 @@ table.dataTable thead .sorting_desc::after {
   align-items: center;
   margin: 20px 0;
   gap: 10px;
+  
 }
-
+.product-top-area-single .flag-img img{
+    padding: 15px;
+    object-fit: contain;
+  }
 .product-top-area-single .image-area {
   display: flex;
   align-items: center;
@@ -18319,7 +18323,11 @@ table.dataTable thead .sorting_desc::after {
   display: flex;
   justify-content: center;
 }
-
+.product-top-area-single .logo img{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
 .product-top-area-single .indec {
   display: flex;
   align-items: flex-start;
@@ -18327,7 +18335,12 @@ table.dataTable thead .sorting_desc::after {
   justify-content: flex-end;
   margin-right: 40px;
 }
-
+.product-top-area-single .indec img,
+.product-top-area-single .coupon-code img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
 .sale-statictics-button ul {
   list-style: none;
   display: flex;

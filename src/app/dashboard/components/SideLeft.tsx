@@ -1,7 +1,7 @@
 // components/SideLeft.tsx
 "use client";
 import Link from 'next/link';
-
+import logo from "../../../../public/assets/images/logo/logo.png";
 import Image from 'next/image';
 import SideMenu from "./SideMenu";
 
@@ -14,7 +14,7 @@ function SideLeft({ collapsed }: SideLeftProps) {
     <div className={`sidebar_left ${collapsed ? 'collapsed' : ''}`}>
       <Link href="/dashboard" className="logo">
         <Image
-          src="/assets/images-dashboard/logo/logo.svg"
+          src={logo}
           alt="logo"
           width={131}
           height={32}

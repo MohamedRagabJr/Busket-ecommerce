@@ -1,10 +1,18 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
-
 
 
 function MyComponent() {
+
+  // const TopCountries = [{
+  //   image: "/assets/images-dashboard/brand/02.png",
+  //   name: "USA",
+  //   id: 1,},
+  // {
+  //   image: "/assets/images-dashboard/brand/02.png",
+  //   name: "USA",
+  //   id: 2,}
+  // ]
   return (
     <div>
 
@@ -167,7 +175,7 @@ function MyComponent() {
               </div>
               <div className="product-top-area-single">
                 <div className="image-area">
-                  <Link href="#" className="thumbnail">
+                  <Link href="#" className="thumbnail flag-img">
                     <Image src="/assets/images-dashboard/brand/02.png" alt="grocery"  width={500} height={500}/>
                   </Link>
                   <div className="information">
@@ -186,7 +194,7 @@ function MyComponent() {
               </div>
               <div className="product-top-area-single">
                 <div className="image-area">
-                  <Link href="#" className="thumbnail">
+                  <Link href="#" className="thumbnail flag-img">
                     <Image src="/assets/images-dashboard/brand/02.png" alt="grocery"  width={500} height={500}/>
                   </Link>
                   <div className="information">
@@ -205,7 +213,7 @@ function MyComponent() {
               </div>
               <div className="product-top-area-single">
                 <div className="image-area">
-                  <Link href="#" className="thumbnail">
+                  <Link href="#" className="thumbnail flag-img">
                     <Image src="/assets/images-dashboard/brand/03.png" alt="grocery"  width={500} height={500}/>
                   </Link>
                   <div className="information">
@@ -224,7 +232,7 @@ function MyComponent() {
               </div>
               <div className="product-top-area-single">
                 <div className="image-area">
-                  <Link href="#" className="thumbnail">
+                  <Link href="#" className="thumbnail flag-img">
                     <Image src="/assets/images-dashboard/brand/04.png" alt="grocery"  width={500} height={500}/>
                   </Link>
                   <div className="information">
@@ -243,7 +251,7 @@ function MyComponent() {
               </div>
               <div className="product-top-area-single">
                 <div className="image-area">
-                  <Link href="#" className="thumbnail">
+                  <Link href="#" className="thumbnail flag-img">
                     <Image src="/assets/images-dashboard/brand/05.png" alt="grocery"  width={500} height={500}/>
                   </Link>
                   <div className="information">
@@ -262,7 +270,7 @@ function MyComponent() {
               </div>
               <div className="product-top-area-single">
                 <div className="image-area">
-                  <Link href="#" className="thumbnail">
+                  <Link href="#" className="thumbnail flag-img">
                     <Image src="/assets/images-dashboard/brand/06.png" alt="grocery"  width={500} height={500}/>
                   </Link>
                   <div className="information">
@@ -281,7 +289,7 @@ function MyComponent() {
               </div>
               <div className="product-top-area-single">
                 <div className="image-area">
-                  <Link href="#" className="thumbnail">
+                  <Link href="#" className="thumbnail flag-img">
                     <Image src="/assets/images-dashboard/brand/07.png" alt="grocery"  width={500} height={500}/>
                   </Link>
                   <div className="information">
@@ -300,7 +308,7 @@ function MyComponent() {
               </div>
               <div className="product-top-area-single">
                 <div className="image-area">
-                  <Link href="#" className="thumbnail">
+                  <Link href="#" className="thumbnail flag-img">
                     <Image src="/assets/images-dashboard/brand/05.png" alt="grocery"  width={500} height={500}/>
                   </Link>
                   <div className="information">
