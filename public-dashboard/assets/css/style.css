@@ -15187,6 +15187,8 @@ body {
 
 .rts-side-nav-area-left li.single-menu-item a img {
   transition: 0.3s;
+  width: 22px;
+  height: 22px;
 }
 
 .rts-side-nav-area-left li.single-menu-item a:hover {
