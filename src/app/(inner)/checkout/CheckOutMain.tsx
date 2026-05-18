@@ -140,7 +140,9 @@ export default function CheckOutMain() {
                             </div>
 
                             {cartItems.length === 0 ? (
-                                <p>Your cart is empty.</p>
+                                <div className="top-wrapper py-3">
+                                    <p>Your cart is empty.</p>
+                                </div>
                             ) : (
                                 cartItems.map((item) => (
                                     <div className="single-shop-list" key={item.id}>
