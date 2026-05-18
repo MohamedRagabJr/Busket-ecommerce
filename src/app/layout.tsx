@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Noto_Sans } from "next/font/google";import "./globals.css";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/plugins.css";
 import "../../public/assets/css/style.css";
@@ -12,14 +11,9 @@ import { CompareProvider } from "../components/header/CompareContext";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const notoSans = Noto_Sans({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -42,8 +36,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <CompareProvider>
+<body className={notoSans.className}>
+          <CompareProvider>
           <WishlistProvider>
             <CartProvider>
               {children}

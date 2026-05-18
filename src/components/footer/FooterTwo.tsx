@@ -160,7 +160,7 @@ function FooterTwo() {
                             <div className="col-lg-12">
                                 <div className="copyright-arae-two-wrapper">
                                     <p className="disc">
-                                        Copyright 2025 <Link href="#">©Ekomart</Link>. All rights reserved.
+                                        Copyright 2026 <Link href="https://ragab-frontend.vercel.app/">©Busket</Link>. All rights reserved.
                                     </p>
                                     <div className="payment-processw-area">
                                         <span>Payment Accepts:</span>
