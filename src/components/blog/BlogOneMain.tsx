@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -17,8 +19,12 @@ const BlogGridMain: React.FC<BlogGridMainProps> = ({
     return (
         <>
             <Link href={`/blog/${Slug}`} className="thumbnail">
-                <img src={`assets/images/blog/${blogImage}`} alt="blog-area" />
-            </Link>
+<Image
+  src={`/assets/images/blog/${blogImage}`}
+  alt="blog-area"
+  width={500}
+  height={500}
+/>            </Link>
             <div className="blog-body">
                 <div className="top-area">
                     <div className="single-meta">

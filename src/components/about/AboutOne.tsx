@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 function ComponentName() {
@@ -10,7 +11,7 @@ function ComponentName() {
       <div className="row align-items-center">
         <div className="col-lg-4">
           <div className="thumbnail-left">
-            <img src="assets/images/about/02.jpg" alt="" />
+            <Image src="/assets/images/about/02.jpg" alt=""  width={500} height={500}/>
           </div>
         </div>
         <div className="col-lg-8 pl--60 pl_md--10 pt_md--30 pl_sm--10 pt_sm--30">

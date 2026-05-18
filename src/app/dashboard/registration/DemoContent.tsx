@@ -9,7 +9,7 @@ function DemoContent() {
     <div className="body-root-inner">
       <div className="registration-wrapper-1">
         <div className="logo-area mb--0">
-          <img className="mb--10" src="/assets/images/logo/fav.png" alt="logo" />
+          <Image className="mb--10" src="/assets/images/logo/fav.png" alt="logo"  width={500} height={500}/>
         </div>
         <h3 className="title animated fadeIn">Register Into Your Account</h3>
         <form action="#" className="registration-form">
@@ -32,10 +32,10 @@ function DemoContent() {
             </div>
             <div className="login-with-brand">
               <Link href="#" className="single">
-                <img src="/assets/images/form/google.svg" alt="login" />
+                <Image src="/assets/images/form/google.svg" alt="login"  width={500} height={500}/>
               </Link>
               <Link href="#" className="single">
-                <img src="/assets/images/form/facebook.svg" alt="login" />
+                <Image src="/assets/images/form/facebook.svg" alt="login"  width={500} height={500}/>
               </Link>
             </div>
             <p>

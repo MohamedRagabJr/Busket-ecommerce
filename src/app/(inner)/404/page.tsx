@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import HeaderOne from "@/components/header/HeaderOne";
@@ -16,7 +17,7 @@ export default function Home() {
             <div className="col-lg-12">
               <div className="error-main-wrapper">
                 <div className="thumbnail">
-                  <img src="/assets/images/contact/01.png" alt="error" />
+                  <Image src="/assets/images/contact/01.png" alt="error"  width={500} height={500}/>
                 </div>
                 <div className="content-main">
                   <h2 className="title">This Page Can’t Be Found</h2>

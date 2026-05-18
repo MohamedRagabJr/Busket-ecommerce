@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import ProductDetails from "@/components/modal/ProductDetails";
@@ -77,7 +79,7 @@ const BlogGridMain: React.FC<BlogGridMainProps> = ({
  
 
             <Link href={`/shop/${Slug}`} className="thumbanil">
-                <img src={`/assets/images/best-seller/${ProductImage}`} alt="seller" />
+                <Image src={`/assets/images/best-seller/${ProductImage}`} alt="seller"  width={500} height={500}/>
                 <div className="action-share-option">
                     <div
                         className="single-action openuptip message-show-action"

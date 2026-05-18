@@ -1,5 +1,4 @@
 "use client";
-import React from 'react';
 import BlogOneMain from './BlogOneMain';
 import Posts from '@/data/Posts.json';
 

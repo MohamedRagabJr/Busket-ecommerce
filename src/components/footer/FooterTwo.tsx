@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -13,11 +14,11 @@ function FooterTwo() {
                                 <div className="footer-two-main-wrapper">
                                     <div className="footer-single-wixed-two start">
                                         <Link href="#" className="logo-area">
-                                            <img
-                                                src="assets/images/logo/logo-02.svg"
+                                            <Image
+                                                src="/assets/images/logo/logo-02.svg"
                                                 alt="logo-area"
                                                 className="logo"
-                                            />
+                                             width={500} height={500}/>
                                         </Link>
                                         <p className="disc">
                                             What’s inside: New Arrivals, Exclusive Sales, News &amp; Mores
@@ -108,7 +109,7 @@ function FooterTwo() {
                                             {/* single contact information */}
                                             <div className="single-contact-information-area">
                                                 <div className="icon-area">
-                                                    <img src="assets/images/icons/11.svg" alt="icons" />
+                                                    <Image src="/assets/images/icons/11.svg" alt="icons"  width={500} height={500}/>
                                                 </div>
                                                 <div className="information-area">
                                                     <p className="disc">
@@ -121,7 +122,7 @@ function FooterTwo() {
                                             {/* single contact information */}
                                             <div className="single-contact-information-area">
                                                 <div className="icon-area">
-                                                    <img src="assets/images/icons/12.svg" alt="icons" />
+                                                    <Image src="/assets/images/icons/12.svg" alt="icons"  width={500} height={500}/>
                                                 </div>
                                                 <div className="information-area">
                                                     <p className="disc">
@@ -134,7 +135,7 @@ function FooterTwo() {
                                             {/* single contact information */}
                                             <div className="single-contact-information-area">
                                                 <div className="icon-area">
-                                                    <img src="assets/images/icons/13.svg" alt="icons" />
+                                                    <Image src="/assets/images/icons/13.svg" alt="icons"  width={500} height={500}/>
                                                 </div>
                                                 <div className="information-area">
                                                     <p className="disc">
@@ -163,7 +164,7 @@ function FooterTwo() {
                                     </p>
                                     <div className="payment-processw-area">
                                         <span>Payment Accepts:</span>
-                                        <img src="assets/images/payment/04.png" alt="payment" />
+                                        <Image src="/assets/images/payment/04.png" alt="payment"  width={500} height={500}/>
                                     </div>
                                 </div>
                             </div>

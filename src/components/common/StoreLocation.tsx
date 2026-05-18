@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -13,7 +14,7 @@ function ComponentName() {
           {/* single store area start */}
           <div className="single-store-area-start">
             <Link href="#" className="thumbnail">
-              <img src="assets/images/store/01.jpg" alt="store_area" />
+              <Image src="/assets/images/store/01.jpg" alt="store_area"  width={500} height={500}/>
             </Link>
             <div className="right-content">
               <div className="location-area">
@@ -48,7 +49,7 @@ function ComponentName() {
           {/* single store area start */}
           <div className="single-store-area-start">
             <Link href="#" className="thumbnail">
-              <img src="assets/images/store/02.jpg" alt="store_area" />
+              <Image src="/assets/images/store/02.jpg" alt="store_area"  width={500} height={500}/>
             </Link>
             <div className="right-content">
               <div className="location-area">
@@ -83,7 +84,7 @@ function ComponentName() {
           {/* single store area start */}
           <div className="single-store-area-start">
             <Link href="#" className="thumbnail">
-              <img src="assets/images/store/03.jpg" alt="store_area" />
+              <Image src="/assets/images/store/03.jpg" alt="store_area"  width={500} height={500}/>
             </Link>
             <div className="right-content">
               <div className="location-area">

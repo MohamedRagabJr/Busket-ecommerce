@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import ProductSmListMain from "@/components/product-main/ProductSmListMain";
@@ -128,7 +130,7 @@ function RecentlyAdded() {
               <div className="col-lg-3">
                 <div className="add-area-start-feature">
                   <div className="thumbnail">
-                    <img src="assets/images/add/01.jpg" alt="add_area" />
+                    <Image src="/assets/images/add/01.jpg" alt="add_area"  width={500} height={500}/>
                   </div>
                   <div className="inner-add-content">
                     <div className="tag">Weekend Discount</div>

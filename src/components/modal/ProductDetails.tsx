@@ -1,4 +1,6 @@
 'use client';
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 
@@ -71,17 +73,17 @@ const ProductDetails: React.FC<ModalProps> = ({
                   <div className="thumb-wrapper one filterd-items figure">
                     {activeTab === 'tab1' && (
                       <div className="product-thumb zoom">
-                        <img src={productImage} alt="product-thumb" />
+                        <Image src={productImage} alt="product-thumb"  width={500} height={500}/>
                       </div>
                     )}
                     {activeTab === 'tab2' && (
                       <div className="product-thumb zoom">
-                        <img src={productImage} alt="product-thumb" />
+                        <Image src={productImage} alt="product-thumb"  width={500} height={500}/>
                       </div>
                     )}
                     {activeTab === 'tab3' && (
                       <div className="product-thumb zoom">
-                        <img src={productImage} alt="product-thumb" />
+                        <Image src={productImage} alt="product-thumb"  width={500} height={500}/>
                       </div>
                     )}
                   </div>
@@ -92,7 +94,7 @@ const ProductDetails: React.FC<ModalProps> = ({
                         onClick={() => setActiveTab(tab)}
                         className={`thumb-filter filter-btn ${activeTab === tab ? 'active' : ''}`}
                       >
-                        <img src={productImage} alt={`thumb-${tab}`} />
+                        <Image src={productImage} alt={`thumb-${tab}`}  width={500} height={500}/>
                       </div>
                     ))}
                   </div>

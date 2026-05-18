@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -30,7 +31,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/01.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/01.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">206 Items</Link>
@@ -40,7 +41,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/08.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/08.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">105 Items</Link>
@@ -50,7 +51,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/09.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/09.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">26 Items</Link>
@@ -60,7 +61,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/10.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/10.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">99 Items</Link>
@@ -70,7 +71,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/11.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/11.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">26 Items</Link>
@@ -80,7 +81,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/09.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/09.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">52 Items</Link>
@@ -90,7 +91,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/01.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/01.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">26 Items</Link>
@@ -100,7 +101,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/09.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/09.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">125 Items</Link>
@@ -110,7 +111,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/08.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/08.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">26 Items</Link>
@@ -120,7 +121,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/10.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/10.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">302 Items</Link>
@@ -130,7 +131,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/11.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/11.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">116 Items</Link>
@@ -140,7 +141,7 @@ function DemoContent() {
           <div className="col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="single-brand-area-start">
               <div className="logo">
-                <img src="/assets/images-dashboard/brand/08.png" alt="brand" />
+                <Image src="/assets/images-dashboard/brand/08.png" alt="brand"  width={500} height={500}/>
               </div>
               <p className="item">
                 <Link href="#">120 Items</Link>

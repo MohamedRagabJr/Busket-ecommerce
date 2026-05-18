@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useRef } from 'react';
 
@@ -46,7 +48,7 @@ const DemoContent: React.FC = () => {
               <h4 className="title">Customer Details</h4>
               <div className="main-customers-details-top">
                 <div className="left">
-                  <img src="/assets/images-dashboard/avatar/03.png" alt="avatar" />
+                  <Image src="/assets/images-dashboard/avatar/03.png" alt="avatar"  width={500} height={500}/>
                   <div className="information-area">
                     <h4 className="name">Regina Cooper</h4>
                     <span className="designation">Customer</span>
@@ -125,7 +127,7 @@ const DemoContent: React.FC = () => {
                 <td>
                   <div className="item">
                     <div className="thumbnail">
-                      <img src="/assets/images-dashboard/grocery/15.png" alt="grocery" />
+                      <Image src="/assets/images-dashboard/grocery/15.png" alt="grocery"  width={500} height={500}/>
                     </div>
                     <div className="discription">
                       <h6 className="title">Quaker Oats Healthy Meal...</h6>
@@ -143,7 +145,7 @@ const DemoContent: React.FC = () => {
                 <td>
                   <div className="item">
                     <div className="thumbnail">
-                      <img src="/assets/images-dashboard/grocery/15.png" alt="grocery" />
+                      <Image src="/assets/images-dashboard/grocery/15.png" alt="grocery"  width={500} height={500}/>
                     </div>
                     <div className="discription">
                       <h6 className="title">Quaker Oats Healthy Meal...</h6>

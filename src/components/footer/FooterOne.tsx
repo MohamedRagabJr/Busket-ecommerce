@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -169,7 +170,7 @@ function FooterOne() {
                                 </div>
                                 <div className="payment-access">
                                     <span>Payment Accepts:</span>
-                                    <img src="assets/images/payment/01.png" alt="" />
+                                    <Image src="/assets/images/payment/01.png" alt=""  width={500} height={500}/>
                                 </div>
                             </div>
                         </div>
@@ -188,8 +189,8 @@ function FooterOne() {
                                 </p>
                                 <Link href="#" className="playstore-app-area">
                                     <span>Download App</span>
-                                    <img src="assets/images/payment/02.png" alt="" />
-                                    <img src="assets/images/payment/03.png" alt="" />
+                                    <Image src="/assets/images/payment/02.png" alt=""  width={500} height={500}/>
+                                    <Image src="/assets/images/payment/03.png" alt=""  width={500} height={500}/>
                                 </Link>
                             </div>
                         </div>

@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 import { useState, useEffect } from "react";
@@ -120,12 +122,12 @@ const SidebarMenu = () => {
                   handleToggle(index);
                 }}
               >
-                <img src={item.icon} alt="icon" className="icon" />
+                <Image src={item.icon} alt="icon" className="icon"  width={500} height={500}/>
                 <p>{item.title}</p>
               </Link>
             ) : (
               <Link href={item.href || "#"}>
-                <img src={item.icon} alt="icon" className="icon" />
+                <Image src={item.icon} alt="icon" className="icon"  width={500} height={500}/>
                 <p>{item.title}</p>
               </Link>
             )}

@@ -1,5 +1,7 @@
 // src/components/service/CheckOutMain.tsx
 'use client';
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 import React, { useState } from 'react';
@@ -143,7 +145,7 @@ export default function CheckOutMain() {
                                 cartItems.map((item) => (
                                     <div className="single-shop-list" key={item.id}>
                                         <div className="left-area">
-                                            <img src={item.image} alt={item.title} />
+                                            <Image src={item.image} alt={item.title}  width={500} height={500}/>
                                             <span className="title">{item.title} × {item.quantity}</span>
                                         </div>
                                         <span className="price">${(item.price * item.quantity).toFixed(2)}</span>
@@ -178,7 +180,7 @@ export default function CheckOutMain() {
                                 <div className="left-area">
                                     <span style={{ fontWeight: 600, color: '#2C3C28' }}>Total Price:</span>
                                 </div>
-                                <span className="price" style={{ color: '#629D23' }}>${total.toFixed(2)}</span>
+                                <span className="price" style={{ color: 'var(--color-secondary)' }}>${total.toFixed(2)}</span>
                             </div>
 
                             {/* Payment methods */}

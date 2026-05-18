@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 function OfferAdd() {
@@ -18,7 +19,7 @@ function OfferAdd() {
                                     <br /> Don't miss these opportunities...
                                 </p>
                                 <div className="offer-iamge">
-                                    <img src="assets/images/offer/01.png" alt="offer-area" />
+                                    <Image src="/assets/images/offer/01.png" alt="offer-area"  width={500} height={500}/>
                                 </div>
                             </div>
                         </div>

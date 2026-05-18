@@ -1,7 +1,8 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 function NavItem() {
     return (
         <div>
@@ -178,10 +179,10 @@ function NavItem() {
                                             href="/shop"
                                             className="feature-add-megamenu-area"
                                         >
-                                            <img
-                                                src="assets/images/feature/05.jpg"
+                                            <Image
+                                                src="/assets/images/feature/05.jpg"
                                                 alt="feature_product"
-                                            />
+                                             width={500} height={500}/>
                                         </Link>
                                     </div>
                                 </div>

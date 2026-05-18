@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 
@@ -109,7 +111,7 @@ const CompareElements: React.FC = () => {
                           <div className="cursor" />
                           <div className="thumb-wrapper one filterd-items figure">
                             <div className="product-thumb">
-                              <img src={activeImage} alt={blogPost.title} />
+                              <Image src={activeImage} alt={blogPost.title}  width={500} height={500}/>
                             </div>
                           </div>
                           <div className="product-thumb-filter-group">
@@ -120,7 +122,7 @@ const CompareElements: React.FC = () => {
                                 onClick={() => setActiveImage(thumb.src)}
                                 style={{ cursor: 'pointer' }}
                               >
-                                <img src={thumb.src} alt={thumb.alt} />
+                                <Image src={thumb.src} alt={thumb.alt}  width={500} height={500}/>
                               </div>
                             ))}
                           </div>
@@ -216,7 +218,7 @@ const CompareElements: React.FC = () => {
                           </p>
                           <div className="details-row-2">
                             <div className="left-area">
-                              <img src="/assets/images/shop/06.jpg" alt="shop" />
+                              <Image src="/assets/images/shop/06.jpg" alt="shop"  width={500} height={500}/>
                             </div>
                             <div className="right">
                               <h4 className="title">
@@ -482,21 +484,21 @@ const CompareElements: React.FC = () => {
                   <div className="shop-sight-sticky-sidevbar mb--20">
                     <h6 className="title">Available offers</h6>
                     <div className="single-offer-area">
-                      <div className="icon"><img src="/assets/images/shop/01.svg" alt="icon" /></div>
+                      <div className="icon"><Image src="/assets/images/shop/01.svg" alt="icon"  width={500} height={500}/></div>
                       <div className="details"><p>Get 5% instant discount for the 1st Flipkart Order using Ekomart UPI</p></div>
                     </div>
                     <div className="single-offer-area">
-                      <div className="icon"><img src="/assets/images/shop/02.svg" alt="icon" /></div>
+                      <div className="icon"><Image src="/assets/images/shop/02.svg" alt="icon"  width={500} height={500}/></div>
                       <div className="details"><p>Flat $250 off on Citi Credit Card EMI Transactions over $30</p></div>
                     </div>
                     <div className="single-offer-area">
-                      <div className="icon"><img src="/assets/images/shop/03.svg" alt="icon" /></div>
+                      <div className="icon"><Image src="/assets/images/shop/03.svg" alt="icon"  width={500} height={500}/></div>
                       <div className="details"><p>Free Worldwide Shipping on all orders over $100</p></div>
                     </div>
                   </div>
                   <div className="our-payment-method">
                     <h5 className="title">Guaranteed Safe Checkout</h5>
-                    <img src="/assets/images/shop/03.png" alt="" />
+                    <Image src="/assets/images/shop/03.png" alt=""  width={500} height={500}/>
                   </div>
                 </div>
               </div>

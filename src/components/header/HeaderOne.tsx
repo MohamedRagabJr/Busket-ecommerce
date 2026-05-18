@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect, useRef } from 'react';
 import HeaderNav from './HeaderNav';
@@ -210,11 +212,11 @@ function HeaderOne() {
                             <div className="col-lg-12">
                                 <div className="logo-search-category-wrapper">
                                     <Link href="/" className="logo-area">
-                                        <img src="/assets/images/logo/logo-01.svg" alt="logo-main" className="logo" />
+                                        <Image src="/assets/images/logo/logo.png" alt="logo-main" className="logo"  width={500} height={500}/>
                                     </Link>
                                     <div className="category-search-wrapper">
                                         <div className="category-btn category-hover-header">
-                                            <img className="parent" src="/assets/images/icons/bar-1.svg" alt="icons" />
+                                            <Image className="parent" src="/assets/images/icons/bar-1.svg" alt="icons"  width={500} height={500}/>
                                             <span>Categories</span>
                                             <CategoryMenu />
                                         </div>

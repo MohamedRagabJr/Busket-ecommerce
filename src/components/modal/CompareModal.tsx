@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -26,17 +28,17 @@ const ModalComponent: React.FC<ModalProps> = ({ show, handleClose }) => {
                         <div className="single-compare-elements name">Preview</div>
                         <div className="single-compare-elements">
                             <div className="thumbnail-preview">
-                                <img src="/assets/images/grocery/01.jpg" alt="grocery" />
+                                <Image src="/assets/images/grocery/01.jpg" alt="grocery"  width={500} height={500}/>
                             </div>
                         </div>
                         <div className="single-compare-elements">
                             <div className="thumbnail-preview">
-                                <img src="/assets/images/grocery/02.jpg" alt="grocery" />
+                                <Image src="/assets/images/grocery/02.jpg" alt="grocery"  width={500} height={500}/>
                             </div>
                         </div>
                         <div className="single-compare-elements">
                             <div className="thumbnail-preview">
-                                <img src="/assets/images/grocery/03.jpg" alt="grocery" />
+                                <Image src="/assets/images/grocery/03.jpg" alt="grocery"  width={500} height={500}/>
                             </div>
                         </div>
                     </div>

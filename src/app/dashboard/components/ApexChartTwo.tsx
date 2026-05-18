@@ -46,7 +46,7 @@ const StackedBarChart: React.FC = () => {
     plotOptions: {
       bar: { columnWidth: "18%", borderRadius: 0 },
     },
-    fill: { colors: ["#629D23", "#629D23"] },
+    fill: { colors: ["var(--color-secondary)", "var(--color-secondary)"] },
     tooltip: { enabled: true },
   };
 

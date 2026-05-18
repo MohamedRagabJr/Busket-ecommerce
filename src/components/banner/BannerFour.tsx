@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
@@ -8,7 +9,7 @@ function BannerFour() {
                 {/* rts banenr area start */}
                 <div className="rts-banner-area rts-section-gap banner-bg_4 bg_image  d-flex align-items-center">
                     <div className="transparent-person">
-                        <img src="/assets/images/banner/transparent/01.png" alt="banenr" />
+                        <Image src="/assets/images/banner/transparent/01.png" alt="banenr"  width={500} height={500}/>
                     </div>
                     <div className="container">
                         <div className="row">

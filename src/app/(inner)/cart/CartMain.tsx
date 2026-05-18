@@ -1,4 +1,6 @@
 'use client';
+import Image from 'next/image';
+
 import React, { useState, useEffect } from 'react';
 import { useCart } from '@/components/header/CartContext';
 
@@ -82,7 +84,7 @@ const CartMain = () => {
                       <i className="fa-regular fa-x" />
                     </div>
                     <div className="thumbnail">
-                      <img src={item.image} alt="shop" />
+                      <Image src={item.image} alt="shop"  width={500} height={500}/>
                     </div>
                     <div className="information">
                       <h6 className="title">{item.title}</h6>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -27,7 +28,7 @@ function MyComponent()  {
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/08.jpg" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/08.jpg" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p>Quaker Oats Healthy Meal...</p>
@@ -44,7 +45,7 @@ function MyComponent()  {
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/09.jpg" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/09.jpg" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p>Quaker Oats Healthy Meal...</p>
@@ -61,7 +62,7 @@ function MyComponent()  {
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/10.jpg" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/10.jpg" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p>Quaker Oats Healthy Meal...</p>
@@ -78,7 +79,7 @@ function MyComponent()  {
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/11.jpg" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/11.jpg" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p>Quaker Oats Healthy Meal...</p>
@@ -95,7 +96,7 @@ function MyComponent()  {
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/12.jpg" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/12.jpg" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p>Quaker Oats Healthy Meal...</p>
@@ -112,7 +113,7 @@ function MyComponent()  {
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/13.jpg" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/13.jpg" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p>Quaker Oats Healthy Meal...</p>
@@ -148,7 +149,7 @@ function MyComponent()  {
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/01.png" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/01.png" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p className="mb--5">Robert</p>
@@ -162,13 +163,13 @@ function MyComponent()  {
             <p>$2,000</p>
           </div>
           <div className="indec mr--0">
-            <img src="/assets/images-dashboard/grocery/02.png" alt="ekomart" />
+            <Image src="/assets/images-dashboard/grocery/02.png" alt="ekomart"  width={500} height={500}/>
           </div>
         </div>
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/03.png" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/03.png" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p className="mb--5">mark Henri</p>
@@ -182,13 +183,13 @@ function MyComponent()  {
             <p>$1,000</p>
           </div>
           <div className="indec mr--0">
-            <img src="/assets/images-dashboard/grocery/02.png" alt="ekomart" />
+            <Image src="/assets/images-dashboard/grocery/02.png" alt="ekomart"  width={500} height={500}/>
           </div>
         </div>
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/04.png" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/04.png" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p className="mb--5">Krisob Kadri</p>
@@ -202,13 +203,13 @@ function MyComponent()  {
             <p>$1,999</p>
           </div>
           <div className="indec mr--0">
-            <img src="/assets/images-dashboard/grocery/02.png" alt="ekomart" />
+            <Image src="/assets/images-dashboard/grocery/02.png" alt="ekomart"  width={500} height={500}/>
           </div>
         </div>
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/05.png" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/05.png" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p className="mb--5">Koriana Joo</p>
@@ -222,13 +223,13 @@ function MyComponent()  {
             <p>$1,25</p>
           </div>
           <div className="indec mr--0">
-            <img src="/assets/images-dashboard/grocery/02.png" alt="ekomart" />
+            <Image src="/assets/images-dashboard/grocery/02.png" alt="ekomart"  width={500} height={500}/>
           </div>
         </div>
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/06.png" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/06.png" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p className="mb--5">Marlee</p>
@@ -242,13 +243,13 @@ function MyComponent()  {
             <p>$5,653</p>
           </div>
           <div className="indec mr--0">
-            <img src="/assets/images-dashboard/grocery/02.png" alt="ekomart" />
+            <Image src="/assets/images-dashboard/grocery/02.png" alt="ekomart"  width={500} height={500}/>
           </div>
         </div>
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/01.png" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/01.png" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p className="mb--5">John Brush</p>
@@ -262,13 +263,13 @@ function MyComponent()  {
             <p>$2,600</p>
           </div>
           <div className="indec mr--0">
-            <img src="/assets/images-dashboard/grocery/02.png" alt="ekomart" />
+            <Image src="/assets/images-dashboard/grocery/02.png" alt="ekomart"  width={500} height={500}/>
           </div>
         </div>
         <div className="product-top-area-single bottom">
           <div className="image-area">
             <Link href="#" className="thumbnail">
-              <img src="/assets/images-dashboard/grocery/03.png" alt="grocery" />
+              <Image src="/assets/images-dashboard/grocery/03.png" alt="grocery"  width={500} height={500}/>
             </Link>
             <div className="information">
               <p className="mb--5">Robert</p>
@@ -282,7 +283,7 @@ function MyComponent()  {
             <p>$1,999</p>
           </div>
           <div className="indec mr--0">
-            <img src="/assets/images-dashboard/grocery/02.png" alt="ekomart" />
+            <Image src="/assets/images-dashboard/grocery/02.png" alt="ekomart"  width={500} height={500}/>
           </div>
         </div>
       </div>

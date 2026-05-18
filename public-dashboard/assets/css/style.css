@@ -48,7 +48,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --color-primary: #629D23;
+  --color-primary: var(--color-secondary);
   --color-secondary: #1F1F25;
   --color-body: #6E777D;
   --color-heading-1: #2C3C28;
@@ -15903,7 +15903,7 @@ header .headerleft .collups-show-icon.collapsed i {
 .tab-button-area-setting ul li button {
   display: block;
   height: 60px;
-  background: #629D23 !important;
+  background: var(--color-secondary) !important;
   color: #FFFFFF;
   text-align: left;
   border: none !important;
@@ -17114,7 +17114,7 @@ table.dataTable thead .sorting_desc::after {
 }
 
 .rts-btn.btn-primary {
-  background: #629D23;
+  background: var(--color-secondary);
   border-radius: 6px;
   display: block;
   max-width: max-content;
@@ -17402,7 +17402,7 @@ table.dataTable thead .sorting_desc::after {
 .table-transixtion tbody td .btn-primary:hover {
   background: transparent;
   border: 1px solid var(--color-primary);
-  color: #629D23;
+  color: var(--color-secondary);
 }
 
 .button-wrapper-reviews {
@@ -17869,8 +17869,8 @@ table.dataTable thead .sorting_desc::after {
   font-size: 14px;
   padding: 8px 16px !important;
   background: transparent;
-  color: #629D23;
-  border: 1px solid #629D23;
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 1919px) {
@@ -17950,9 +17950,9 @@ table.dataTable thead .sorting_desc::after {
 }
 
 .single-shopping-card-one.deals-of-day .cart-counter-action .rts-btn {
-  background: #629d23;
-  color: #629D23;
-  border: 1px solid #629D23;
+  background: var(--color-secondary);
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -18893,7 +18893,7 @@ edit .quantity-edit button {
   padding: 7px 15px;
   border-radius: 33px;
   background: #EFF5E9;
-  color: #629D23;
+  color: var(--color-secondary);
   font-weight: 500;
 }
 
@@ -18938,7 +18938,7 @@ edit .quantity-edit button {
 }
 
 .footer-copyright ul li a {
-  color: #629D23;
+  color: var(--color-secondary);
 }
 
 .flex-direction-column {
@@ -19648,7 +19648,7 @@ li.has-dropdown .submenu li>a .badge {
 }
 
 .dlOXOQ:disabled {
-  background-color: #629d237d !important;
+  background-color: var(--color-secondary)7d !important;
 }
 
 .jrcipk {
@@ -19659,7 +19659,7 @@ li.has-dropdown .submenu li>a .badge {
 }
 
 .jrcipk:disabled {
-  background-color: #629d237d !important;
+  background-color: var(--color-secondary)7d !important;
 }
 
 .jkeuOW {

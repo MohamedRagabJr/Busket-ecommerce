@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import Nav from './Nav';
@@ -179,11 +181,11 @@ const { compareItems } = useCompare();
                         <div className="col-lg-12">
                           <div className="logo-search-category-wrapper style-five-call-us">
                             <Link href="/" className="logo-area">
-                              <img
-                                src="assets/images/logo/logo-01.svg"
+                              <Image
+                                src="/assets/images/logo/logo.png"
                                 alt="logo-main"
                                 className="logo"
-                              />
+                               width={500} height={500}/>
                             </Link>
                             <div className="category-search-wrapper style-five">
                               <div className="location-area">
@@ -277,11 +279,11 @@ const { compareItems } = useCompare();
                   <div className="nav-and-btn-wrapper">
                     <div className="nav-area-bottom-left-header-four">
                       <div className="category-btn category-hover-header five-style">
-                        <img
+                        <Image
                           className="parent"
-                          src="assets/images/icons/14.svg"
+                          src="/assets/images/icons/14.svg"
                           alt="icons"
-                        />
+                         width={500} height={500}/>
                         <span className="ml--10">All Categories</span>
                         <CategoryMenu />
                       </div>
@@ -304,82 +306,82 @@ const { compareItems } = useCompare();
                 <div className="col-lg-12">
                   <div className="logo-search-category-wrapper after-md-device-header header-mid-five-call">
                     <Link href="/" className="logo-area">
-                      <img
-                        src="assets/images/logo/logo-01.svg"
+                      <Image
+                        src="/assets/images/logo/logo.png"
                         alt="logo-main"
                         className="logo"
-                      />
+                       width={500} height={500}/>
                     </Link>
                     <div className="category-search-wrapper">
                       <div className="category-btn category-hover-header">
-                        <img
+                        <Image
                           className="parent"
-                          src="assets/images/icons/bar-1.svg"
+                          src="/assets/images/icons/bar-1.svg"
                           alt="icons"
-                        />
+                         width={500} height={500}/>
                         <span>Categories</span>
                         <ul className="category-sub-menu">
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/01.svg" alt="icons" />
+                              <Image src="/assets/images/icons/01.svg" alt="icons"  width={500} height={500}/>
                               <span>Breakfast &amp; Dairy</span>
                               <i className="fa-regular fa-plus" />
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/02.svg" alt="icons" />
+                              <Image src="/assets/images/icons/02.svg" alt="icons"  width={500} height={500}/>
                               <span>Meats &amp; Seafood</span>
                               <i className="fa-regular fa-plus" />
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/03.svg" alt="icons" />
+                              <Image src="/assets/images/icons/03.svg" alt="icons"  width={500} height={500}/>
                               <span>Breads &amp; Bakery</span>
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/04.svg" alt="icons" />
+                              <Image src="/assets/images/icons/04.svg" alt="icons"  width={500} height={500}/>
                               <span>Chips &amp; Snacks</span>
                               <i className="fa-regular fa-plus" />
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/05.svg" alt="icons" />
+                              <Image src="/assets/images/icons/05.svg" alt="icons"  width={500} height={500}/>
                               <span>Medical Healthcare</span>
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/06.svg" alt="icons" />
+                              <Image src="/assets/images/icons/06.svg" alt="icons"  width={500} height={500}/>
                               <span>Breads &amp; Bakery</span>
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/07.svg" alt="icons" />
+                              <Image src="/assets/images/icons/07.svg" alt="icons"  width={500} height={500}/>
                               <span>Biscuits &amp; Snacks</span>
                               <i className="fa-regular fa-plus" />
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/08.svg" alt="icons" />
+                              <Image src="/assets/images/icons/08.svg" alt="icons"  width={500} height={500}/>
                               <span>Frozen Foods</span>
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/09.svg" alt="icons" />
+                              <Image src="/assets/images/icons/09.svg" alt="icons"  width={500} height={500}/>
                               <span>Grocery &amp; Staples</span>
                             </Link>
                           </li>
                           <li>
                             <Link href="#" className="menu-item">
-                              <img src="assets/images/icons/10.svg" alt="icons" />
+                              <Image src="/assets/images/icons/10.svg" alt="icons"  width={500} height={500}/>
                               <span>Other Items</span>
                             </Link>
                           </li>
@@ -421,7 +423,7 @@ const { compareItems } = useCompare();
                             <div className="cart-item-1 border-top">
                               <div className="img-name">
                                 <div className="thumbanil">
-                                  <img src="assets/images/shop/cart-1.png" alt="" />
+                                  <Image src="/assets/images/shop/cart-1.png" alt=""  width={500} height={500}/>
                                 </div>
                                 <div className="details">
                                   <Link href="/shop">
@@ -442,7 +444,7 @@ const { compareItems } = useCompare();
                             <div className="cart-item-1">
                               <div className="img-name">
                                 <div className="thumbanil">
-                                  <img src="assets/images/shop/05.png" alt="" />
+                                  <Image src="/assets/images/shop/05.png" alt=""  width={500} height={500}/>
                                 </div>
                                 <div className="details">
                                   <Link href="/shop">
@@ -463,7 +465,7 @@ const { compareItems } = useCompare();
                             <div className="cart-item-1">
                               <div className="img-name">
                                 <div className="thumbanil">
-                                  <img src="assets/images/shop/04.png" alt="" />
+                                  <Image src="/assets/images/shop/04.png" alt=""  width={500} height={500}/>
                                 </div>
                                 <div className="details">
                                   <Link href="/shop">

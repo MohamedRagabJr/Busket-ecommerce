@@ -1,4 +1,6 @@
 'use client';
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 
@@ -120,7 +122,7 @@ const ProductTable = () => {
       cell: row => (
         <div className="item-image-and-name editable">
           <Link href="#" className="thumbnail">
-            <img src={row.image} alt="grocery" />
+            <Image src={row.image} alt="grocery"  width={500} height={500}/>
           </Link>
           {editProductId === row.id ? (
             <input
@@ -190,7 +192,7 @@ const ProductTable = () => {
       name: 'Action',
       cell: row => (
         <div style={{ position: 'relative' }}>
-          <img
+          <Image
             src="/assets/images-dashboard/grocery/20.png"
             alt="menu"
             width={20}

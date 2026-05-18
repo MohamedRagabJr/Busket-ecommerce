@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import HeaderOne from "@/components/header/HeaderOne";
@@ -39,11 +40,11 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="registration-wrapper-1">
                   <div className="logo-area mb--0">
-                    <img
+                    <Image
                       className="mb--10"
-                      src="assets/images/logo/fav.png"
+                      src="/assets/images/logo/fav.png"
                       alt="logo"
-                    />
+                     width={500} height={500}/>
                   </div>
                   <h3 className="title">Register Into Your Account</h3>
                   <form action="#" className="registration-form">
@@ -66,10 +67,10 @@ export default function Home() {
                       </div>
                       <div className="login-with-brand">
                         <Link href="#" className="single">
-                          <img src="assets/images/form/google.svg" alt="login" />
+                          <Image src="/assets/images/form/google.svg" alt="login"  width={500} height={500}/>
                         </Link>
                         <Link href="#" className="single">
-                          <img src="assets/images/form/facebook.svg" alt="login" />
+                          <Image src="/assets/images/form/facebook.svg" alt="login"  width={500} height={500}/>
                         </Link>
                       </div>
                       <p>

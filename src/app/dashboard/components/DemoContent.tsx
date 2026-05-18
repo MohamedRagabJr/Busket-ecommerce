@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 import ApexChartOne from "./ApexChartOne";
@@ -36,7 +37,7 @@ function DemoContent() {
                                         <i className="fa-light fa-arrow-up" />
                                         <span>50.8%</span>
                                     </div>
-                                    <img src="/assets/images-dashboard/avatar/04.png" alt="ekomart" />
+                                    <Image src="/assets/images-dashboard/avatar/04.png" alt="ekomart"  width={500} height={500}/>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +52,7 @@ function DemoContent() {
                                         <i className="fa-light fa-arrow-up" />
                                         <span>50.8%</span>
                                     </div>
-                                    <img src="/assets/images-dashboard/avatar/05.png" alt="ekomart" />
+                                    <Image src="/assets/images-dashboard/avatar/05.png" alt="ekomart"  width={500} height={500}/>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +67,7 @@ function DemoContent() {
                                         <i className="fa-light fa-arrow-up" />
                                         <span>50.8%</span>
                                     </div>
-                                    <img src="/assets/images-dashboard/avatar/06.png" alt="ekomart" />
+                                    <Image src="/assets/images-dashboard/avatar/06.png" alt="ekomart"  width={500} height={500}/>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +82,7 @@ function DemoContent() {
                                         <i className="fa-light fa-arrow-up" />
                                         <span>50.8%</span>
                                     </div>
-                                    <img src="/assets/images-dashboard/avatar/07.png" alt="ekomart" />
+                                    <Image src="/assets/images-dashboard/avatar/07.png" alt="ekomart"  width={500} height={500}/>
                                 </div>
                             </div>
                         </div>

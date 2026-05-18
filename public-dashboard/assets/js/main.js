@@ -131,7 +131,7 @@
                     tickAmount: 5,
                     show: false,
                 },
-                colors: ["#629D23", "#455A3F", "#FF965D"],
+                colors: ["var(--color-secondary)", "#455A3F", "#FF965D"],
                 fill: {
                     type: 'gradient',
                     gradient: {
@@ -278,7 +278,7 @@
                     tickAmount: 5,
                     show: false,
                 },
-                colors: ["#629D23", "#455A3F", "#FF965D"],
+                colors: ["var(--color-secondary)", "#455A3F", "#FF965D"],
                 fill: {
                     type: 'gradient',
                     gradient: {
@@ -425,7 +425,7 @@
                     tickAmount: 5,
                     show: false,
                 },
-                colors: ["#629D23", "#455A3F", "#FF965D"],
+                colors: ["var(--color-secondary)", "#455A3F", "#FF965D"],
                 fill: {
                     type: 'gradient',
                     gradient: {
@@ -590,7 +590,7 @@
                     }
                 },
                 fill: {
-                    colors: ["#629D23", "#629D23"],
+                    colors: ["var(--color-secondary)", "var(--color-secondary)"],
                 },
             };
         

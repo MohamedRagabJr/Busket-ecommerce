@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import HeaderOne from "@/components/header/HeaderOne";
 import ShortService from "@/components/service/ShortService";
@@ -126,7 +127,7 @@ export default function Home() {
                                         </div>
                                         <div className="col-lg-5 mt_md--30 mt_sm--30">
                                             <div className="thumbnail-area">
-                                                <img src="assets/images/contact/02.jpg" alt="contact_form" />
+                                                <Image src="/assets/images/contact/02.jpg" alt="contact_form"  width={500} height={500}/>
                                             </div>
                                         </div>
                                     </div>

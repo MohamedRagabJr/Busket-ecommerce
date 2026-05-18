@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { useCart } from "@/components/header/CartContext";
@@ -140,7 +142,7 @@ const BlogGridMain: React.FC<BlogGridMainProps> = ({
                         </span>
                         <i className="fa-solid fa-bookmark" />
                     </div>
-                    <img src={`/assets/images/grocery/${ProductImage}`} alt="grocery" />
+                    <Image src={`/assets/images/grocery/${ProductImage}`} alt="grocery"  width={500} height={500}/>
                 </Link>
                 <div className="action-share-option">
                     <span

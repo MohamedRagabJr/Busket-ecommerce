@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 interface BlogGridMainProps {
@@ -66,7 +68,7 @@ const BlogGridMain: React.FC<BlogGridMainProps> = ({
         <>
 
             <Link href={`/shop/${Slug}`} className="thumbnail">
-                <img src={`/assets/images/grocery/${ProductImage}`} alt="product" />
+                <Image src={`/assets/images/grocery/${ProductImage}`} alt="product"  width={500} height={500}/>
             </Link>
             <div className="body-content">
                 <div className="top">

@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 
@@ -83,7 +85,7 @@ const OverviewTable: React.FC = () => {
       cell: row => (
         <div className="between-stock-table statrusts">
           <p>{row.status}</p>
-          <img src="/assets/images-dashboard/grocery/20.png" alt="" />
+          <Image src="/assets/images-dashboard/grocery/20.png" alt=""  width={500} height={500}/>
           <div className="action-edit-deleate">
             <span>Edit</span>
             <span>Delete</span>

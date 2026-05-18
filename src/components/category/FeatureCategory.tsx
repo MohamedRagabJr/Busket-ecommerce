@@ -1,4 +1,6 @@
 'use client';
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 
@@ -68,7 +70,7 @@ const FeaturedCategories = () => {
                   <SwiperSlide key={index}>
                     <div className="single-category-one">
                       <Link href="shop-grid-sidebar.html">
-                        <img src={`/assets/images/category/${img}`} alt="category" />
+                        <Image src={`/assets/images/category/${img}`} alt="category"  width={500} height={500}/>
                         <p>Organic Vegetable</p>
                       </Link>
                     </div>

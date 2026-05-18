@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import HeaderOne from "@/components/header/HeaderOne";
@@ -106,13 +108,13 @@ export default function Home() {
                                 onClick={() => setActiveImage(thumb.src)}
                                 style={{ cursor: 'pointer' }}
                               >
-                                <img src={thumb.src} alt={thumb.alt} />
+                                <Image src={thumb.src} alt={thumb.alt}  width={500} height={500}/>
                               </div>
                             ))}
                           </div>
                           <div className="thumb-wrapper one filterd-items figure mt--20">
                             <div className="product-thumb">
-                              <img src={activeImage} alt='image' />
+                              <Image src={activeImage} alt='image'  width={500} height={500}/>
                             </div>
                           </div>
                         </div>
@@ -264,7 +266,7 @@ export default function Home() {
                         </p>
                         <div className="details-row-2">
                           <div className="left-area">
-                            <img src="/assets/images/shop/06.jpg" alt="shop" />
+                            <Image src="/assets/images/shop/06.jpg" alt="shop"  width={500} height={500}/>
                           </div>
                           <div className="right">
                             <h4 className="title">
@@ -530,7 +532,7 @@ export default function Home() {
                     <h6 className="title">Available offers</h6>
                     <div className="single-offer-area">
                       <div className="icon">
-                        <img src="/assets/images/shop/01.svg" alt="icon" />
+                        <Image src="/assets/images/shop/01.svg" alt="icon"  width={500} height={500}/>
                       </div>
                       <div className="details">
                         <p>
@@ -541,7 +543,7 @@ export default function Home() {
                     </div>
                     <div className="single-offer-area">
                       <div className="icon">
-                        <img src="/assets/images/shop/02.svg" alt="icon" />
+                        <Image src="/assets/images/shop/02.svg" alt="icon"  width={500} height={500}/>
                       </div>
                       <div className="details">
                         <p>
@@ -552,7 +554,7 @@ export default function Home() {
                     </div>
                     <div className="single-offer-area">
                       <div className="icon">
-                        <img src="/assets/images/shop/03.svg" alt="icon" />
+                        <Image src="/assets/images/shop/03.svg" alt="icon"  width={500} height={500}/>
                       </div>
                       <div className="details">
                         <p>Free Worldwide Shipping on all orders over $100</p>
@@ -561,7 +563,7 @@ export default function Home() {
                   </div>
                   <div className="our-payment-method">
                     <h5 className="title">Guaranteed Safe Checkout</h5>
-                    <img src="/assets/images/shop/03.png" alt="" />
+                    <Image src="/assets/images/shop/03.png" alt=""  width={500} height={500}/>
                   </div>
                 </div>
               </div>

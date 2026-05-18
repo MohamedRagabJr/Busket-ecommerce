@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 "use clients"
 import React from 'react'
@@ -30,7 +31,7 @@ function TrandingProduct() {
                                                         </span>
                                                         <i className="fa-solid fa-bookmark" />
                                                     </div>
-                                                    <img src="assets/images/grocery/07.jpg" alt="grocery" />
+                                                    <Image src="/assets/images/grocery/07.jpg" alt="grocery"  width={500} height={500}/>
                                                 </Link>
                                                 <div className="body-content">
                                                     <Link href="/shop">
@@ -54,7 +55,7 @@ function TrandingProduct() {
                                                         </span>
                                                         <i className="fa-solid fa-bookmark" />
                                                     </div>
-                                                    <img src="assets/images/grocery/08.jpg" alt="grocery" />
+                                                    <Image src="/assets/images/grocery/08.jpg" alt="grocery"  width={500} height={500}/>
                                                 </Link>
                                                 <div className="body-content">
                                                     <Link href="/shop">
@@ -78,7 +79,7 @@ function TrandingProduct() {
                                                         </span>
                                                         <i className="fa-solid fa-bookmark" />
                                                     </div>
-                                                    <img src="assets/images/grocery/09.jpg" alt="grocery" />
+                                                    <Image src="/assets/images/grocery/09.jpg" alt="grocery"  width={500} height={500}/>
                                                 </Link>
                                                 <div className="body-content">
                                                     <Link href="/shop">
@@ -102,7 +103,7 @@ function TrandingProduct() {
                                                         </span>
                                                         <i className="fa-solid fa-bookmark" />
                                                     </div>
-                                                    <img src="assets/images/grocery/10.jpg" alt="grocery" />
+                                                    <Image src="/assets/images/grocery/10.jpg" alt="grocery"  width={500} height={500}/>
                                                 </Link>
                                                 <div className="body-content">
                                                     <Link href="/shop">
@@ -126,7 +127,7 @@ function TrandingProduct() {
                                                         </span>
                                                         <i className="fa-solid fa-bookmark" />
                                                     </div>
-                                                    <img src="assets/images/grocery/11.jpg" alt="grocery" />
+                                                    <Image src="/assets/images/grocery/11.jpg" alt="grocery"  width={500} height={500}/>
                                                 </Link>
                                                 <div className="body-content">
                                                     <Link href="/shop">
@@ -150,7 +151,7 @@ function TrandingProduct() {
                                                         </span>
                                                         <i className="fa-solid fa-bookmark" />
                                                     </div>
-                                                    <img src="assets/images/grocery/12.jpg" alt="grocery" />
+                                                    <Image src="/assets/images/grocery/12.jpg" alt="grocery"  width={500} height={500}/>
                                                 </Link>
                                                 <div className="body-content">
                                                     <Link href="/shop">
@@ -174,7 +175,7 @@ function TrandingProduct() {
                                                         </span>
                                                         <i className="fa-solid fa-bookmark" />
                                                     </div>
-                                                    <img src="assets/images/grocery/13.jpg" alt="grocery" />
+                                                    <Image src="/assets/images/grocery/13.jpg" alt="grocery"  width={500} height={500}/>
                                                 </Link>
                                                 <div className="body-content">
                                                     <Link href="/shop">
@@ -198,7 +199,7 @@ function TrandingProduct() {
                                                         </span>
                                                         <i className="fa-solid fa-bookmark" />
                                                     </div>
-                                                    <img src="assets/images/grocery/14.jpg" alt="grocery" />
+                                                    <Image src="/assets/images/grocery/14.jpg" alt="grocery"  width={500} height={500}/>
                                                 </Link>
                                                 <div className="body-content">
                                                     <Link href="/shop">

@@ -1,4 +1,6 @@
 "use client"
+
+import Image from 'next/image';
 import React from 'react'
 
 function FeatureTwo() {
@@ -11,7 +13,7 @@ function FeatureTwo() {
               {/* single feature product area */}
               <div className="feature-product-area-single bg_image">
                 <div className="inner-image">
-                  <img src="assets/images/feature/01.png" alt="feature" />
+                  <Image src="/assets/images/feature/01.png" alt="feature"  width={500} height={500}/>
                 </div>
                 <div className="inner-content">
                   <h2 className="title">
@@ -30,7 +32,7 @@ function FeatureTwo() {
               {/* single feature product area */}
               <div className="feature-product-area-single two bg_image">
                 <div className="inner-image">
-                  <img src="assets/images/feature/02.png" alt="feature" />
+                  <Image src="/assets/images/feature/02.png" alt="feature"  width={500} height={500}/>
                 </div>
                 <div className="inner-content">
                   <h2 className="title">

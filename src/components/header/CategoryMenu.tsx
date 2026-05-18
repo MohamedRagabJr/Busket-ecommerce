@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 
@@ -83,7 +85,7 @@ function CategoryMenu() {
                                 if (item.submenu) toggleMenu(index);
                             }}
                         >
-                            <img src={`/assets/images/icons/${item.icon}`} alt="icons" />
+                            <Image src={`/assets/images/icons/${item.icon}`} alt="icons"  width={500} height={500}/>
                             <span>{item.label}</span>
                             {item.submenu && (
                                 <i

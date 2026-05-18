@@ -31,7 +31,7 @@ const SaleStatistics: React.FC = () => {
             labels: { offsetX: -10 },
         },
         stroke: { width: [3, 3, 3], curve: "straight" },
-        colors: ["#629D23", "#455A3F", "#FF965D"],
+        colors: ["var(--color-secondary)", "#455A3F", "#FF965D"],
         fill: {
             type: "gradient",
             gradient: {

@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import ProductDetails from "@/components/modal/ProductDetails";
@@ -90,7 +92,7 @@ const BlogGridMain: React.FC<BlogGridMainProps> = ({
             </div>
             <div className="image-and-action-area-wrapper">
                 <Link href={`/shop/${Slug}`} className="thumbnail-preview">
-                    <img src={`/assets/images/grocery/${ProductImage}`} alt="grocery" />
+                    <Image src={`/assets/images/grocery/${ProductImage}`} alt="grocery"  width={500} height={500}/>
                 </Link>
                 <div className="action-share-option">
                     <div

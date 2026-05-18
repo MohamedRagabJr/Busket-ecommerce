@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -41,7 +43,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/01.png" alt="category" />
+                                                    <Image src="/assets/images/category/01.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>
@@ -50,7 +52,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/02.png" alt="category" />
+                                                    <Image src="/assets/images/category/02.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>
@@ -59,7 +61,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/03.png" alt="category" />
+                                                    <Image src="/assets/images/category/03.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>
@@ -68,7 +70,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/04.png" alt="category" />
+                                                    <Image src="/assets/images/category/04.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>
@@ -77,7 +79,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/05.png" alt="category" />
+                                                    <Image src="/assets/images/category/05.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>
@@ -86,7 +88,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/06.png" alt="category" />
+                                                    <Image src="/assets/images/category/06.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>
@@ -95,7 +97,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/07.png" alt="category" />
+                                                    <Image src="/assets/images/category/07.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>
@@ -104,7 +106,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/08.png" alt="category" />
+                                                    <Image src="/assets/images/category/08.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>
@@ -113,7 +115,7 @@ function CategoryOne() {
                                         <SwiperSlide>
                                             <div className="single-category-one">
                                                 <Link href="/shop">
-                                                    <img src="assets/images/category/01.png" alt="category" />
+                                                    <Image src="/assets/images/category/01.png" alt="category"  width={500} height={500}/>
                                                     <p>Organic Vegetable</p>
                                                     <span>299 Items</span>
                                                 </Link>

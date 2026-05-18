@@ -1,5 +1,7 @@
 "use client"
 
+
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import HeaderOne from "@/components/header/HeaderOne";
@@ -103,7 +105,7 @@ export default function Home() {
                                                     <div className="cursor" />
                                                     <div className="thumb-wrapper one filterd-items figure">
                                                         <div className="product-thumb">
-                                                            <img src={activeImage} alt='image' />
+                                                            <Image src={activeImage} alt='image'  width={500} height={500}/>
                                                         </div>
                                                     </div>
                                                     <div className="product-thumb-filter-group">
@@ -115,7 +117,7 @@ export default function Home() {
                                                                 onClick={() => setActiveImage(thumb.src)}
                                                                 style={{ cursor: 'pointer' }}
                                                             >
-                                                                <img src={thumb.src} alt={thumb.alt} />
+                                                                <Image src={thumb.src} alt={thumb.alt}  width={500} height={500}/>
                                                             </div>
                                                         ))}
                                                     </div>
@@ -291,7 +293,7 @@ export default function Home() {
                                                     </p>
                                                     <div className="details-row-2">
                                                         <div className="left-area">
-                                                            <img src="/assets/images/shop/06.jpg" alt="shop" />
+                                                            <Image src="/assets/images/shop/06.jpg" alt="shop"  width={500} height={500}/>
                                                         </div>
                                                         <div className="right">
                                                             <h4 className="title">

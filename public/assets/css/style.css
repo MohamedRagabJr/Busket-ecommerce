@@ -48,8 +48,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --color-primary: #629D23;
-  --color-secondary: #1F1F25;
+  --color-primary: #052046;
+  --color-secondary: #FF6B00;
   --color-body: #6E777D;
   --color-heading-1: #2C3C28;
   --color-white: #fff;
@@ -17614,7 +17614,7 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .banner-left-five-area-start .inner-content-banner-five span {
-  color: #629D23;
+  color: var(--color-primary);
   font-size: 16px;
   font-weight: 600;
 }
@@ -18029,7 +18029,7 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .single-category-one:hover {
-  border: 1px solid #629D23;
+  border: 1px solid var(--color-primary);
 }
 
 .cover-card-main-over {
@@ -18194,7 +18194,7 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .rts-btn.btn-primary {
-  background: #629D23;
+  background: var(--color-primary);
   border-radius: 6px;
   display: block;
   max-width: max-content;
@@ -18630,8 +18630,8 @@ li.with-megamenu:hover .rts-megamenu {
   font-size: 14px;
   padding: 8px 16px !important;
   background: transparent;
-  color: #629D23;
-  border: 1px solid #629D23;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
 
 .single-shopping-card-one .cart-counter-action .rts-btn i {
@@ -18697,9 +18697,9 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .single-shopping-card-one.deals-of-day .cart-counter-action .rts-btn {
-  background: #629d23;
-  color: #629D23;
-  border: 1px solid #629D23;
+  background: var(--color-primary);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
   width: 100%;
   max-width: 100%;
   display: flex;
@@ -18710,7 +18710,7 @@ li.with-megamenu:hover .rts-megamenu {
 
 .single-shopping-card-one.deals-of-day .cart-counter-action .rts-btn:hover {
   background: var(--color-heading-1);
-  color: #629D23;
+  color: var(--color-primary);
   border: 1px solid #2c3c28;
 }
 
@@ -20103,7 +20103,7 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .comment-replay-area-start .single-comment-area .comment-information .top-area .replay {
-  color: #629D23;
+  color: var(--color-primary);
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -20178,7 +20178,7 @@ li.with-megamenu:hover .rts-megamenu {
 }
 
 .single-footer-wized .call-area .info .number {
-  color: #629D23;
+  color: var(--color-primary);
   font-size: 24px;
   font-weight: 600;
 }
@@ -21264,7 +21264,7 @@ body.modal-open {
 
 .single-new-offer-area .new-offer-wized-title-between .rts-btn:hover {
   background: var(--color-heading-1);
-  color: #629D23;
+  color: var(--color-primary);
   border: 1px solid #2c3c28;
 }
 
@@ -22138,7 +22138,7 @@ body.modal-open {
 }
 
 .single-store-area-start .right-content .location-area .icon {
-  background: #629D23;
+  background: var(--color-primary);
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -22161,7 +22161,7 @@ body.modal-open {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  background: #629D23;
+  background: var(--color-primary);
   content: "";
   position: absolute;
   left: 50%;
@@ -22623,8 +22623,8 @@ body.modal-open {
   font-size: 14px;
   padding: 6px 4px !important;
   background: transparent;
-  color: #629D23;
-  border: 1px solid #629D23;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
 
 .category-active-menu-sidebar {
@@ -23449,7 +23449,7 @@ body.modal-open {
 }
 
 .cart-total-area-start-right {
-  border: 2px solid #629D23;
+  border: 2px solid var(--color-primary);
   border-radius: 6px;
 }
 

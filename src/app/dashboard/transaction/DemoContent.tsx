@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 import React, { useMemo } from 'react';
@@ -35,7 +37,7 @@ const TransactionsTable = () => {
       name: 'Method',
       cell: row => (
         <div className="payment d-flex align-items-center">
-          <img src={row.method.image} alt="transection" />
+          <Image src={row.method.image} alt="transection"  width={500} height={500}/>
           <p>{row.method.name}</p>
         </div>
       ),

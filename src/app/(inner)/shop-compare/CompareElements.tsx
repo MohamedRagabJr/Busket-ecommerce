@@ -1,4 +1,6 @@
 "use client";
+import Image from 'next/image';
+
 import Link from 'next/link';
 
 
@@ -40,7 +42,7 @@ const CompareElements = () => {
                     {compareItems.map((item, index) => (
                         <div className="single-compare-elements" key={index}>
                             <div className="thumbnail-preview">
-                                <img src={item.image} alt={item.name} />
+                                <Image src={item.image} alt={item.name}  width={500} height={500}/>
                             </div>
                         </div>
                     ))}
