@@ -11,9 +11,11 @@ import FooterOne from "@/components/footer/FooterOne";
 import { CartProvider } from "@/components/header/CartContext";
 import { WishlistProvider } from "@/components/header/WishlistContext";
 import { ToastContainer, toast } from 'react-toastify';
+import { useTranslations } from "next-intl";
 
 
 export default function Home() {
+    const t = useTranslations("home");
   return (
     <WishlistProvider>
       <CartProvider>

@@ -1,7 +1,7 @@
 // components/SideLeft.tsx
 "use client";
 import Link from 'next/link';
-import logo from "../../../../public/assets/images/logo/logo.png";
+import logo from "../../../../../public/assets/images/logo/logo.png";
 import Image from 'next/image';
 import SideMenu from "./SideMenu";
 
