@@ -1,25 +1,40 @@
 import { getRequestConfig } from "next-intl/server";
 import { headers } from "next/headers";
-import { notFound } from "next/navigation";
 
 const locales = ["en", "ar"] as const;
 const namespaces = ["home", "about", "header"] as const;
 
-export default getRequestConfig(async () => {
+export default getRequestConfig(async (arg: any) => {
+  const resolvedLocale = await arg.requestLocale;
   const h = await headers();
-  const raw = h.get("x-next-intl-locale") ?? "ar";
-  const locale = raw.toLowerCase() as (typeof locales)[number];
+  const raw = resolvedLocale || arg.locale || h.get("x-next-intl-locale") || "ar";
+  const activeLocale = locales.includes(raw as any) ? (raw as (typeof locales)[number]) : "ar";
+  console.log(`[next-intl DEBUG] resolvedLocale: ${resolvedLocale}, raw: ${raw}, activeLocale: ${activeLocale}`);
 
-  if (!locales.includes(locale as "en" | "ar")) notFound();
+  const messages: Record<string, any> = {};
 
-  const messages = Object.fromEntries(
-    await Promise.all(
-      namespaces.map(async (ns) => {
-        const mod = await import(`../messages/${locale}/${ns}.json`);
-        return [ns, mod.default] as const;
-      })
-    )
+  await Promise.all(
+    namespaces.map(async (ns) => {
+      try {
+        const mod = await import(`../messages/${activeLocale}/${ns}.json`);
+        messages[ns] = mod.default;
+        if (mod.default && typeof mod.default === "object") {
+          Object.assign(messages, mod.default);
+        }
+      } catch (err) {
+        // Ignore if file doesn't exist
+      }
+    })
   );
 
-  return { locale, messages };
+  try {
+    const mainMod = await import(`../messages/${activeLocale}/${activeLocale}.json`);
+    if (mainMod.default && typeof mainMod.default === "object") {
+      Object.assign(messages, mainMod.default);
+    }
+  } catch (err) {
+    // Ignore if file doesn't exist
+  }
+
+  return { locale: activeLocale, messages };
 });

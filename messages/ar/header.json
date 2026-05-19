@@ -1,11 +1,45 @@
 {
-  "home": "الرئيسية",
-  "sectors": "قطاعات نخدمها",
-  "about": "تعرف علينا",
-  "work": "أعمالنا",
-  "blog": "المدونة",
-  "contact": "تواصل معنا",
-  "tech": "قطاع التكنولوجيا",
-  "realEstate": "قطاع العقارات",
-  "marketing": "قطاع التسويق"
+  "Header": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "shop": "المتجر",
+    "vendors": "البائعون",
+    "pages": "الصفحات",
+    "blog": "المدونة",
+    "contact": "اتصل بنا",
+    "dashboard": "لوحة التحكم",
+
+    "shopLayout": "تخطيط المتجر",
+    "shopDetails": "تفاصيل المنتج",
+    "productFeature": "مميزات المنتج",
+    "shopOthers": "خيارات المتجر",
+
+    "shopGridSidebar": "متجر شبكي مع سايدبار",
+    "shopListSidebar": "قائمة المتجر مع سايدبار",
+    "shopTopFilterGrid": "فلتر علوي شبكي",
+    "shopTopFilterList": "فلتر علوي قائمة",
+
+    "cart": "السلة",
+    "checkout": "الدفع",
+    "trackOrder": "تتبع الطلب",
+
+    "vendorList": "قائمة البائعين",
+    "vendorGrid": "شبكة البائعين",
+    "vendorDetails": "تفاصيل البائع",
+
+    "faq": "الأسئلة الشائعة",
+    "invoice": "الفاتورة",
+    "register": "إنشاء حساب",
+    "login": "تسجيل الدخول",
+
+    "privacyPolicy": "سياسة الخصوصية",
+    "cookiesPolicy": "سياسة الكوكيز",
+    "termsCondition": "الشروط والأحكام",
+
+    "blogListLeftSidebar": "قائمة المدونة يسار",
+    "blogListRightSidebar": "قائمة المدونة يمين",
+    "blogDetails": "تفاصيل المدونة",
+
+    "new": "جديد"
+  }
 }

@@ -2,49 +2,59 @@
 
 
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
+import { useTranslations, useLocale } from "next-intl";
+
 function NavItem() {
+    const t = useTranslations("Header");
+    const locale = useLocale();
+    const pathname = usePathname();
+    const router = useRouter();
+
+    const switchLanguage = (newLocale: "en" | "ar") => {
+        router.replace(pathname, { locale: newLocale });
+    };
     return (
         <div>
             <nav>
                 <ul className="parent-nav">
                     <li className="parent has-dropdown">
                         <Link className="nav-link" href="#">
-                            Home
+                            {t("home")}
                         </Link>
                         <ul className="submenu">
                             <li>
                                 <Link className="sub-b" href="/">
-                                    Home One
+                                    {t("home")}
                                 </Link>
                             </li>
                             <li>
                                 <Link className="sub-b" href="/index-two">
-                                    Home Two
+                                    {t("home")}
                                 </Link>
                             </li>
                             <li>
                                 <Link className="sub-b" href="/index-three">
-                                    Home Three
+                                    {t("home")}
                                 </Link>
                             </li>
                             <li>
                                 <Link className="sub-b" href="/index-four">
-                                    Home Four
+                                    {t("home")}
                                 </Link>
                             </li>
                             <li>
                                 <Link className="sub-b" href="/index-five">
-                                    Home Five
+                                    {t("home")}
                                 </Link>
                             </li>
                         </ul>
                     </li>
                     <li className="parent">
-                        <Link href="/about">About</Link>
+                        <Link href="/about">{t("about")}</Link>
                     </li>
                     <li className="parent with-megamenu">
-                        <Link href="#">Shop</Link>
+                        <Link href="#">{t("shop")}</Link>
                         <div className="rts-megamenu">
                             <div className="wrapper">
                                 <div className="row align-items-center">
@@ -191,7 +201,7 @@ function NavItem() {
                     </li>
                     <li className="parent has-dropdown">
                         <Link className="nav-link" href="#">
-                            Vendors
+                            {t("vendors")}
                         </Link>
                         <ul className="submenu">
                             <li>
@@ -213,7 +223,7 @@ function NavItem() {
                     </li>
                     <li className="parent has-dropdown">
                         <Link className="nav-link" href="#">
-                            Pages
+                            {t("pages")}
                         </Link>
                         <ul className="submenu">
                             <li>
@@ -281,7 +291,7 @@ function NavItem() {
                     </li>
                     <li className="parent has-dropdown">
                         <Link className="nav-link" href="#">
-                            Blog
+                            {t("blog")}
                         </Link>
                         <ul className="submenu">
                             <li>
@@ -315,12 +325,34 @@ function NavItem() {
                     </li>
                     <li className="parents">
                         <Link target='_blank' href="/dashboard">
-                            Dashboard
+                            {t("dashboard")}
                             <span className="badge">New</span>
                         </Link>
                     </li>
                     <li className="parent">
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/contact">{t("contact")}</Link>
+                    </li>
+                    <li className="parent" style={{ display: "flex", alignItems: "center" }}>
+                        <button
+                            onClick={() => switchLanguage(locale === "en" ? "ar" : "en")}
+                            style={{
+                                background: "none",
+                                border: "none",
+                                cursor: "pointer",
+                                display: "inline-flex",
+                                alignItems: "center",
+                                gap: "6px",
+                                fontWeight: "600",
+                                fontSize: "15px",
+                                textTransform: "capitalize",
+                                color: "#1c1d1f",
+                                padding: "0",
+                                fontFamily: "inherit"
+                            }}
+                        >
+                            <i className="fa-regular fa-globe" style={{ fontSize: "16px" }} />
+                            <span>{locale === "en" ? "العربية" : "English"}</span>
+                        </button>
                     </li>
                 </ul>
             </nav>
